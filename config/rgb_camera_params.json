@@ -1,0 +1,116 @@
+{
+	"Calibration": {
+		"Camera": [
+			[
+				824.88983154296875,
+				0,
+				0
+			],
+			[
+				0,
+				824.88983154296875,
+				0
+			],
+			[
+				330.480316162109375,
+				231.932891845703125,
+				1
+			]
+		],
+		"Distortion": [
+			-0.12526644766330719,
+			0.139722049236297607,
+			0,
+			0,
+			0.00395165802910923958
+		]
+	},
+	"EepromId": 1,
+	"Images": {
+		"Raw": 13137418987.5319996,
+		"Rectified": null,
+		"WithOverlay": null
+	},
+	"Link": {
+		"Rotation": {
+			"Angle": 0.030825339385008789,
+			"Axis": [
+				0.0565641704109576954,
+				0.236923510191558939,
+				0.969880273510205226
+			]
+		},
+		"Target": "160824",
+		"Translation": [
+			-54.060102901501466,
+			42.7645351304942878,
+			-42.0620919934696857
+		]
+	},
+	"ModelName": "UI122xLE-C",
+	"Parameters": {
+		"Capture": {
+			"AutoBlackLevel": true,
+			"AutoExposure": true,
+			"AutoGain": true,
+			"Binning": 1,
+			"BlackLevelOffset": 0,
+			"BlackLevelOffsetCalibration": 0,
+			"Exposure": 45.0192499999999995,
+			"Gain": 1,
+			"GainBoost": false,
+			"HardwareGamma": false,
+			"ImageBuffer": {
+				"Count": 1,
+				"OverflowPolicy": "DiscardOld",
+				"Size": 1
+			},
+			"PixelClock": 20,
+			"TargetBrightness": 128,
+			"TriggerDelay": 0,
+			"TriggerMode": "Software"
+		},
+		"IO": {
+			"Input": false,
+			"Output": {
+				"Duration": 0,
+				"Mode": "Low"
+			}
+		},
+		"Overlay": {
+			"Text": {
+				"Angle": 0,
+				"Color": [
+					255,
+					0,
+					0
+				],
+				"Mirror": {
+					"Horizontal": false,
+					"Vertical": false
+				}
+			}
+		}
+	},
+	"Sensor": {
+		"Port": {
+			"Bandwidth": 480,
+			"Type": "USB"
+		},
+		"Size": [
+			752,
+			480
+		]
+	},
+	"SerialNumber": "4102849778",
+	"Status": {
+		"Available": false,
+		"Calibrated": true,
+		"Open": true,
+		"Overtemperature": false,
+		"Paired": false,
+		"ValidFirmware": true,
+		"ValidIpAddress": true
+	},
+	"Type": "Monocular"
+}
